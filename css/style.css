@@ -39,6 +39,66 @@ ul {
 
 /* guide start */
 
+.guide {
+  padding-bottom: 100px;
+  font-family: var(--font-primary);
+}
 
+.guide__content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.guide__txt{
+  font-weight: 400;
+  font-size: 112px;
+  color: #692340;
+}
+.guide__title{
+  font-weight: 400;
+  font-size: 39px;
+  color: #692340;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+ 
+ 
+}
+.guide__img{
+  padding-right: 236px;
+}
+.guide__wrapper{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.span{
+  font-weight: 400;
+  font-size: 16px;
+  
+}
+.guide__desc{
+  font-weight: 400;
+  font-size: 54px;
+  color: #692340;
+  width: 465px;
+  text-align: center;
+  padding-top: 113px;
+}
+.guide__txt2{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.guide__desc2{
+  font-weight: 400;
+  font-size: 20px;
+  color: #692340;
+  max-width: 661px;
+  width: 100%;
+  text-align: center;
+  padding-top: 37px;
+}
 
 /* guide end */
