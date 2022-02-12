@@ -8,6 +8,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: var(--font-primary);
 }
 
 a {
@@ -27,6 +28,152 @@ ul {
 
 /* header start */
 
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 45px;
+  height: 85px;
+}
+
+.nav__list{
+  display: flex;
+  column-gap: 45px;
+}
+
+.nav__link{
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 14px;
+  color: #241C15;
+}
+
+.nav__btns{
+  width: 407px;
+  display: flex;
+  justify-content: end;
+}
+
+.nav__btns{
+  display: flex;
+  column-gap: 24px;
+}
+
+.btn__login{
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  color: #241C15;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  filter: drop-shadow(0px 0px 0px #241C15);
+  border-radius: 0px;
+  padding: 12px 29px;
+}
+
+.btn__signup{
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  color: #FFFFFF;
+  background: #007C89;
+  border-radius: 0px;
+  padding: 12px 16px;
+}
+
+.header__bg{
+  max-width: 1920px;
+  width: 100%;
+  display: flex;
+}
+
+.header__container{
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.header__bg{
+  position: absolute;
+  z-index: -1;
+}
+
+.header__nav-list{
+  display: flex;
+  justify-content: end;
+  column-gap: 28px;
+  margin: 50px 0 30px;
+}
+
+.header__nav-link{
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: right;
+  color: #241C15;
+  transition: .4s;
+  position: relative;
+  padding-bottom: 2px;
+}
+
+.header__nav-link:hover{
+  color: #692340;
+}
+
+.header__nav-link::after{
+  content: '';
+  position: absolute;
+  background: #692340;
+  bottom: 0;
+  height: 1px;
+  width: 0%;
+  left: 0;
+  transition: .4s;
+}
+
+.header__nav-link:hover::after{
+  width: 100%;
+}
+
+.header__title{
+  font-weight: 500;
+  font-size: 74px;
+  line-height: 74px;
+  letter-spacing: 1px;
+  color: #692340;
+  margin-bottom: 38px;
+}
+
+.header__subtitle{
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  color: #692340;
+  margin-bottom: 38px;
+  width: 638px;
+}
+
+.header__btn{
+  display: inline-block;
+  font-weight: normal;
+  font-size: 15px;
+  text-align: center;
+  color: #FBEECA;
+  background: #692340;
+  box-shadow: 0px 0px 0px #431629;
+  border-radius: 0px;
+  padding: 20px 40px;
+  margin-bottom: 20px;
+}
+
+.header__txt{
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: #692340;
+}
 
 
 /* header end */
